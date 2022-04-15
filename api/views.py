@@ -7,3 +7,8 @@ from .models import Movie
 class MovieCreateApi(generics.CreateAPIView):
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
+
+
+class MovieReadApi(generics.ListAPIView):
+    queryset = Movie.objects.all()
+    serializer_class = MovieSerializer
