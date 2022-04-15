@@ -15,3 +15,4 @@ Then activate it
 **paths:**
 
 - http://127.0.0.1:8000/api/v1/create
+- http://127.0.0.1:8000/api/v1/reade
