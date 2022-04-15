@@ -17,3 +17,4 @@ Then activate it
 - http://127.0.0.1:8000/api/v1/create
 - http://127.0.0.1:8000/api/v1/read
 - http://127.0.0.1:8000/api/v1/update/{pk}
+- http://127.0.0.1:8000/api/v1/delete/{pk}
