@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  app:
+    image: crud-drf:1.0.0
+    container_name: crud-drf-container
+    volumes: 
+      - .:/usr/src/app
+    ports:
+      - 8000:8000

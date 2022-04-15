@@ -1,0 +1,8 @@
+.env.example
+.gitignore
+.git/
+.dockerignore
+LICENSE
+README.md
+poetry.lock
+__pycache__/
