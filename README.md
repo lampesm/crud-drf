@@ -10,6 +10,14 @@ Then activate it
 
 `poetry install`
 
+
+## running with docker:
+
+
+`docker build . -t crud-drf:1.0.0`
+
+`docker-compose up`
+
 ----------------------
 
 **paths:**
