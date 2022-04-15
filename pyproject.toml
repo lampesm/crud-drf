@@ -8,6 +8,7 @@ authors = ["esmail211 <smaeil0018@gmail.com>"]
 python = "^3.8"
 Django = "^4.0.4"
 djangorestframework = "^3.13.1"
+python-decouple = "^3.6"
 
 [tool.poetry.dev-dependencies]
 
