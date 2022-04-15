@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crud-drf"
+version = "0.1.0"
+description = "Django REST API – CRUD with DRF"
+authors = ["esmail211 <smaeil0018@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.4"
+djangorestframework = "^3.13.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
