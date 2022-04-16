@@ -5,7 +5,7 @@ from django.utils import timezone
 
 class Movie(models.Model):
     name = models.CharField(max_length=250)
-    director =models.CharField(max_length=250)
+    director = models.CharField(max_length=250)
     release_date = models.DateField(auto_now=False, auto_now_add=False)
     imdb_score = models.FloatField()
     author = models.ForeignKey(User, on_delete=models.CASCADE)

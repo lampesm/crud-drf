@@ -1,18 +1,5 @@
 # How to run
 
-first step install poetry
-
-`pip install poetry`
-
-Then activate it 
-
-`poetry shell` 
-
-`poetry install`
-
-
-## running with docker:
-
 create root user and database in mysql with following command
 
 `docker build . -t mysql-db:1.0.0 -f mysql/Dockerfile`
