@@ -3,12 +3,10 @@
 Django REST framework is a powerful web framework for building API 
 
 
-----------------------
 ## Requirements
 - Docker
 - docker-compose
 
-------------------
 ## Use
 
 create **root** user and **database** in mysql with following command
@@ -36,4 +34,4 @@ then build your api and running other command until your container is ready
 
 ## License
 
-[MIT] https://github.com/esmail-ebrahimi/crud-drf/blob/main/LICENSE
+[MIT](https://github.com/esmail-ebrahimi/crud-drf/blob/main/LICENSE)
