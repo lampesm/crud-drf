@@ -1,6 +1,6 @@
-# Simple CRUD - Django REST Framework with MySQL database and Docker
+# Simple CRUD - Django REST Framework with MySQL and Docker
 
-Django REST framework is a powerful web framework for building API 
+[Django REST Framework](https://www.django-rest-framework.org/) is a powerful web framework for building API 
 
 
 ## Requirements
@@ -23,7 +23,7 @@ then build your api and running other command until your container is ready
 
 ----------------------
 
-**paths:**
+**end points:**
 
 - http://127.0.0.1:8000/api/v1/create
 - http://127.0.0.1:8000/api/v1/read
