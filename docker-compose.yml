@@ -12,8 +12,11 @@ services:
       - 8000:8000
     depends_on:
       - db
+    networks:
+      - drf-ntw
   db:
     image: mysql-db:1.0.0
+    container_name: mysql-db-container
     ports:
       - '3306:3306'
     environment:
@@ -22,6 +25,12 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
     restart: unless-stopped
+    networks:
+      - drf-ntw
   
 volumes:
   mysql_data:
+
+networks:
+  drf-ntw:
+    driver: bridge
