@@ -2,6 +2,10 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 
+class MovieManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(status=False)
+
 
 class Movie(models.Model):
     name = models.CharField(max_length=250)
@@ -20,3 +24,5 @@ class Movie(models.Model):
     
     class Meta:
         ordering = ['imdb_score']
+    
+    objects = MovieManager()
