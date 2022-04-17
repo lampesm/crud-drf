@@ -4,7 +4,7 @@ from django.utils import timezone
 
 class MovieManager(models.Manager):
     def get_queryset(self):
-        return super().get_queryset().filter(status=False)
+        return super().get_queryset().filter(status=True)
 
 
 class Movie(models.Model):
