@@ -1,10 +1,12 @@
 # Simple CRUD - Django REST Framework with MySQL and Docker
 
-[Django REST Framework](https://www.django-rest-framework.org/) is a powerful web framework for building API 
+[Django REST Framework](https://www.django-rest-framework.org/) is a powerful web framework for building API.
+
+In this project, you will learn how to build methods [GET, PUT, POST, DELETE] by **DRF** and how to connect it to **MySQL** and finally **dockerized** the project.
 
 
 ## Requirements
-- Docker
+- docker
 - docker-compose
 
 ## Use
