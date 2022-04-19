@@ -11,6 +11,8 @@ In this project, you will learn how to build methods [GET, PUT, POST, DELETE] by
 
 ## Use
 
+`cp .env.example .env` and replace your environment in .env file
+
 create **root** user and **database** in mysql with following command
 
 `docker build . -t mysql-db:1.0.0 -f mysql/Dockerfile`
