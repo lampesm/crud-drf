@@ -13,17 +13,13 @@ In this project, you will learn how to build methods [GET, PUT, POST, DELETE] by
 
 `cp .env.example .env` and replace your environment in .env file
 
-create **root** user and **database** in mysql with following command
-
-`docker build . -t mysql-db:1.0.0 -f mysql/Dockerfile`
-
 then build your api and running other command until your container is ready 
 
 `docker-compose build`
 
 `docker-compose up`
 
-`docker exec -it crud-drf-container bash` then `python manage.py migrate sessions`
+`docker-compose run api python manage.py migrate `
 
 ----------------------
 
