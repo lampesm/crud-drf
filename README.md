@@ -38,4 +38,4 @@ then build your api and running other command until your container is ready
 
 ## License
 
-[GNU](https://github.com/esmail-ebrahimi/crud-drf/blob/main/LICENSE)
+[GNU](https://github.com/lampesm/crud-drf/blob/main/LICENSE)
