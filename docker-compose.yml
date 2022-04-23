@@ -5,7 +5,9 @@ services:
     image: crud-drf:1.0.0
     container_name: crud-drf-container
     build: .
-    entrypoint: "python manage.py runserver 0.0.0.0:8000"
+    command: "python manage.py runserver 0.0.0.0:8000"
+    env_file:
+      - .env
     volumes: 
       - .:/usr/src/app
     ports:
@@ -15,7 +17,7 @@ services:
     networks:
       - drf-ntw
   db:
-    image: mysql-db:1.0.0
+    image: mysql:8.0.28-oracle
     container_name: mysql-db-container
     ports:
       - '3306:3306'
